@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login and Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Welcome</h1>
+
+        <!-- Registration Form -->
+        <div class="form-box">
+            <h2>Registration Form</h2>
+
+            <form id="registerForm">
+                <input type="text" id="name"
+                    placeholder="Enter Name" required>
+
+                <input type="email" id="email"
+                    placeholder="Enter Email" required>
+
+                <input type="password" id="password"
+                    placeholder="Enter Password" required>
+
+                <button type="submit">Register</button>
+            </form>
+
+            <div id="details"></div>
+        </div>
+
+        <!-- Login Form -->
+        <div class="form-box">
+            <h2>Login Form</h2>
+
+            <form id="loginForm">
+                <input type="email" id="loginEmail"
+                    placeholder="Enter Email" required>
+
+                <input type="password" id="loginPassword"
+                    placeholder="Enter Password" required>
+
+                <button type="submit">Login</button>
+            </form>
+
+            <h3 id="message"></h3>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
